@@ -18,3 +18,5 @@ And then we need to use any IDE like MySqlWorkbench or something else .
 In my case i use MySqlWorkbench .
 
 After all that we are ready to go .
+
+Note: File name represent query ,and you will find query describe .
