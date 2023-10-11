@@ -12,11 +12,11 @@ use classicmodels;
 SELECT * FROM orders;
 
 
--- after we have orderNumber now we want to manipulate the data .
--- needs : Sele Total Price , Tax 15% , Total Price + Tax ,
+-- After we have orderNumber, now we want to manipulate the data .
+-- Needs : Sele Total Price , Tax 15% , Total Price + Tax ,
 -- Quantity Ordered , Stock Before Order , Current Stock , 
 -- Buy Price , Price For Each , Profit For Each , Profit Percentage .
--- and we want to see the highest ordered product .
+-- And we want to see the highest ordered product .
 -- Down below, you will find calculation methods .
 
 select  products.productName,
