@@ -1,4 +1,4 @@
--- Exercise 3
+-- Exercise 4
 -- Create query that query will return age between 21 and 39, and email start with S or F .
 
 -- Try your best and if you don't have any idea google it then see the selution .
