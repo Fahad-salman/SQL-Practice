@@ -27,6 +27,7 @@ ORDER BY orderDate;
 WITH Cancelled_Order AS (
 SELECT
 orderNumber,
+customerNumber,
 count(customerNumber) AS `HOW MANY TIME CANCELL` ,
 status
 
@@ -38,4 +39,4 @@ GROUP BY orderNumber,customerNumber
 ORDER BY orderDate
 )
 
-SELECT * FROM Cancelled_Order;
+SELECT customerNumber , `HOW MANY TIME CANCELL` FROM Cancelled_Order;
